@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:title="Home"
+            android:icon="@drawable/attribution_logo"/>
+        <item
+            android:id="@+id/maps"
+            android:title="Maps"
+            android:icon="@drawable/default_marker"/>
+        <item
+            android:id="@+id/reports"
+            android:title="Reports"
+            android:icon="@drawable/attribution_logo"/>
+    </group>
+
+    <item android:title="Manage">
+        <menu>
+            <item
+                android:id="@+id/sign_out"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>

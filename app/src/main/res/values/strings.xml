@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SmartER</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">smartER</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short. Need atleast 6 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string-array name="options_array">
+        <item>Hourly</item>
+        <item>Daily</item>
+    </string-array>
+    <string-array name="graph_options"><item></item>
+        <item>Pie chart</item>
+        <item>Bar graph</item>
+        <item>Line graph</item>
+    </string-array>
+    <string name="title_activity_register">Register</string>
+
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Surname</string>
+    <string name="prompt_date_of_birth">Date of Birth</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_post_code">Post Code</string>
+    <string name="prompt_mobile">Mobile</string>
+    <string name="prompt_no_of_residents"></string>
+    <string name="prompt_energy_provider">Energy Provider</string>
+    <string name="prompt_user_name">User Name</string>
+
+    <string-array name="no_of_residents_options">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="energy_provider_options">
+        <item>AGL</item>
+        <item>Energy Australia</item>
+        <item>Origin</item>
+    </string-array>
+
+</resources>
